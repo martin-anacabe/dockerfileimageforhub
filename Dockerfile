@@ -5,3 +5,4 @@ FROM debian:stretch
 RUN mkdir my-new-dir
 # Write the message in file
 RUN echo 'this is my new container to make image and then push to hub' > /my-new-dir/my-new-file
+RUN echo 'Agregando una nueva línea' > /my-new-dir/my-new-file
